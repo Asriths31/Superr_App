@@ -7,7 +7,7 @@ function LoginPage() {
   const [isSignUp, setIsSignUp] = useState(true);
 
   return (
-    <div className="w-screen h-screen flex flex-col md:flex-row bg-black overflow-hidden font-sans select-none">
+    <div className="w-screen h-screen flex flex-col md:flex-row bg-black overflow-hidden font-sans">
       
       {/* Left Column: Hero Cover */}
       <div className="w-full md:w-[50vw] h-[40vh] md:h-full relative overflow-hidden flex items-end">

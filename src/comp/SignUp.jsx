@@ -75,7 +75,7 @@ function SignUp({ toggleView }) {
   };
 
   return (
-    <div className="w-full max-w-md flex flex-col items-center justify-center p-4 text-white select-none">
+    <div className="w-full max-w-md flex flex-col items-center justify-center p-4 text-white">
       <h1 className="text-4xl font-semibold font-logo text-[#72DB73] mb-1 tracking-wide text-center">
         Super app
       </h1>

@@ -18,7 +18,7 @@ function Movies() {
   };
 
   return (
-    <div className="w-screen min-h-screen bg-black text-white p-6 md:p-12 font-sans select-none overflow-x-hidden">
+    <div className="w-screen min-h-screen bg-black text-white p-6 md:p-12 font-sans overflow-x-hidden">
       <header className="flex justify-between items-center mb-10 pb-6 border-b border-white/5">
         <h1 
           onClick={() => navigate('/dashboard')}

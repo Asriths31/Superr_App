@@ -178,7 +178,7 @@ function Dashboard() {
   const strokeDashoffset = circumference - (progressPercent * circumference);
 
   return (
-    <div className="w-screen h-screen bg-black text-white p-4 md:p-6 lg:p-8 select-none font-sans overflow-hidden">
+    <div className="w-screen h-screen bg-black text-white p-4 md:p-6 lg:p-8 font-sans overflow-hidden">
 
       <div
         className="w-full h-full gap-4 md:gap-5"

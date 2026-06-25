@@ -45,7 +45,7 @@ function CategorySelection() {
   };
 
   return (
-    <div className="w-screen min-h-screen bg-black text-white flex flex-col md:flex-row p-6 md:p-16 gap-8 select-none font-sans overflow-x-hidden">
+    <div className="w-screen min-h-screen bg-black text-white flex flex-col md:flex-row p-6 md:p-16 gap-8 font-sans overflow-x-hidden">
       
       {/* Left Column: Selection Header and Capsules List */}
       <div className="w-full md:w-2/5 flex flex-col justify-between py-4">

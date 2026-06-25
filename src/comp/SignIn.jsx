@@ -70,7 +70,7 @@ function SignIn({ toggleView }) {
   };
 
   return (
-    <div className="w-full max-w-md flex flex-col items-center justify-center p-6 text-white select-none animate-fadeIn">
+    <div className="w-full max-w-md flex flex-col items-center justify-center p-6 text-white animate-fadeIn">
       <h1 className="text-5xl font-semibold font-logo text-[#72DB73] mb-2 tracking-wide text-center">
         Super app
       </h1>

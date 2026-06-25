@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
-/* Theme Mapping for Tailwind CSS v4 */
-@theme {
-  --font-logo: "Single Day", cursive;
-  --font-sans: "DM Sans", sans-serif;
-}
 
-/* Custom fonts utility classes fallback */
 .font-logo {
   font-family: 'Single Day', cursive;
 }
@@ -15,7 +9,6 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-/* Fade-in transition animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -31,7 +24,6 @@
   animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Premium Scrollbar Styling */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -50,7 +42,6 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Shimmer Loading Overlay animation */
 @keyframes shimmer {
   100% {
     transform: translateX(100%);
