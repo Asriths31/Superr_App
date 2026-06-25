@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* Theme Mapping for Tailwind CSS v4 */
+@theme {
+  --font-logo: "Single Day", cursive;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+/* Custom fonts utility classes fallback */
+.font-logo {
+  font-family: 'Single Day', cursive;
+}
+
+.font-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Fade-in transition animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Premium Scrollbar Styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Shimmer Loading Overlay animation */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.04) 20%,
+    rgba(255, 255, 255, 0.08) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shimmer 1.5s infinite;
+  content: '';
+}
